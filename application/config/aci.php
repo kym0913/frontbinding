@@ -365,6 +365,34 @@ $config['aci_module'] = array (
       ),
     ),
   ),
+  'helloWorld' =>
+  array (
+    'version' => '1',
+    'charset' => 'utf-8',
+    'lastUpdate' => '2015-10-09 20:10:10',
+    'moduleName' => 'ussys',
+    'modulePath' => 'adminpanel',
+    'moduleCaption' => 'ussys',
+    'description' => '这里一个演示模块，来自于吸心大法第三章',
+    'fileList' => NULL,
+    'works' => true,
+    'moduleUrl' => 'adminpanel/ussys',
+    'system' => false,
+    'coder' => '胡子锅',
+    'website' => 'http://',
+    'moduleDetails' =>
+    array (
+      0 =>
+      array (
+        'folder' => 'adminpanel',
+        'controller' => 'ussys',
+        'method' => 'index',
+        'menu_name' => NULL,
+        'caption' => NULL,
+      ),
+    ),
+  ),
+
   'bduser' =>
   array (
     'version' => '1',

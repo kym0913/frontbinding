@@ -19,15 +19,15 @@ $config['wechat_menu'] = array(
      ),
      array(
     "type"=>"view",
-    "name"=>"逛逛",
-    "url"=>"http://www.baidu.com/"
+    "name"=>"签到la",
+    "url"=>"http://km0913.imwork.net/adminpanel/ussys"
      ),
      array(
       "name"=>"我的",
       "sub_button"=>array(
      array(
         "type"=>"view",
-        "name"=>"正在出售",
+        "name"=>"签到",
         "url"=>"http://www.baidu.com/"
      ),
      array(
