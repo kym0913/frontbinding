@@ -235,6 +235,7 @@ switch (ENVIRONMENT)
 	// The path to the "application" folder
 	if (is_dir($application_folder))
 	{
+		//获取绝对路径
 		if (($_temp = realpath($application_folder)) !== FALSE)
 		{
 			$application_folder = $_temp;
