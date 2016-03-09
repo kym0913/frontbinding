@@ -117,3 +117,12 @@ ERROR - 2016-03-08 04:22:38 --> Severity: Notice --> Undefined variable: is_edit
 ERROR - 2016-03-08 04:28:08 --> 404 Page Not Found: Scripts/adminpanel
 ERROR - 2016-03-08 04:28:51 --> Severity: Notice --> Undefined variable: data_info C:\Users\km0913\Documents\GitHub\frontbinding\application\controllers\adminpanel\ussys.php 116
 ERROR - 2016-03-08 04:28:51 --> Severity: Notice --> Undefined variable: is_edit C:\Users\km0913\Documents\GitHub\frontbinding\application\controllers\adminpanel\ussys.php 117
+ERROR - 2016-03-08 06:11:59 --> 404 Page Not Found: Faviconico/index
+ERROR - 2016-03-08 06:12:03 --> 404 Page Not Found: Scripts/adminpanel
+ERROR - 2016-03-08 06:12:16 --> Severity: Notice --> Undefined variable: data_info C:\Users\km0913\Documents\GitHub\frontbinding\application\controllers\adminpanel\ussys.php 113
+ERROR - 2016-03-08 06:12:16 --> Severity: Notice --> Undefined variable: is_edit C:\Users\km0913\Documents\GitHub\frontbinding\application\controllers\adminpanel\ussys.php 114
+ERROR - 2016-03-08 07:52:45 --> 404 Page Not Found: adminpanel/Ussys/ussys.php
+ERROR - 2016-03-08 07:53:10 --> 404 Page Not Found: adminpanel/Ussys/ussys.php
+ERROR - 2016-03-08 09:18:12 --> 404 Page Not Found: Faviconico/index
+ERROR - 2016-03-08 09:56:37 --> Severity: Parsing Error --> syntax error, unexpected '?>', expecting function (T_FUNCTION) C:\Users\km0913\Documents\GitHub\frontbinding\application\controllers\adminpanel\ussys.php 168
+ERROR - 2016-03-08 09:58:20 --> Severity: Warning --> json_decode() expects parameter 1 to be string, array given C:\Users\km0913\Documents\GitHub\frontbinding\application\controllers\adminpanel\ussys.php 43
