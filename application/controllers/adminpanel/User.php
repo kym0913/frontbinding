@@ -218,7 +218,7 @@ class User extends Admin_Controller {
             }
         }else
         {
-        	$this->view('edit',array('is_edit'=>false,'require_js'=>true,'data_info'=>$this->Member_model->default_info()));
+        	$this->view('edit',array('test'=>'funny','is_edit'=>false,'require_js'=>true,'data_info'=>$this->Member_model->default_info()));
         }
 	}
 

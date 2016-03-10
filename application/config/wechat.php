@@ -20,7 +20,7 @@ $config['wechat_menu'] = array(
      array(
     "type"=>"view",
     "name"=>"签到",
-    "url"=>"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx7cf2f38dcfb28d91&redirect_uri=http://km0913.imwork.net/adminpanel/ussys&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+    "url"=>"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx7cf2f38dcfb28d91&redirect_uri=http://km0913.imwork.net/ussys&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
      ),
      array(
       "name"=>"我的",

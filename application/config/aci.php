@@ -30,6 +30,32 @@ $config['aci_module'] = array (
       ),
     ),
   ),
+  'ussys' =>
+  array (
+    'version' => '1',
+    'charset' => 'utf-8',
+    'lastUpdate' => '2016-03-10 14:40:10',
+    'moduleName' => 'ussys',
+    'modulePath' => '',
+    'moduleCaption' => '签到',
+    'description' => '签到测试模块',
+    'fileList' => NULL,
+    'works' => true,
+    'moduleUrl' => '',
+    'system' => true,
+    'coder' => '啊杜',
+    'website' => 'http://',
+    'moduleDetails' =>
+    array (
+      0 =>
+      array (
+        'folder' => '',
+        'controller' => 'ussys',
+        'method' => '',
+        'caption' => '签到',
+      ),
+    ),
+  ),
   'adminpanel' =>
   array (
     'version' => '1',

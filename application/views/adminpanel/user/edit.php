@@ -13,7 +13,7 @@
 	</div>
 	<div class='panel-body'>
 		<fieldset>
-				<legend>基本信息</legend>
+				<legend><?php echo $test?></legend>
 <?php if(!$is_edit):?>
 					<div class="form-group">
 						<label class="col-sm-2 control-label">用户名</label>
