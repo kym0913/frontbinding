@@ -46,7 +46,7 @@ class ussys extends Front_Controller{
 		}
 		$query = $this->db->query('select * from t_sys_memberbd  where mems_openid ="'.$openid.'"');
 		$list=$query->result();
-		if(count($list)==1)
+		if(count($list)>=1)
 		{
 		$this->view('ussed');
 		}else
@@ -102,8 +102,17 @@ function add(){
 									$txt_openid=$_POST['hid'];
 									$txt_totaltime="0";
 
-									if($txt_openid=='请在微信菜单签到中打开'){
-										$this->dismess('请在微信菜单签到中打开');
+									$query = $this->db->query('select * from t_sys_memberbd  where mems_openid ="'.$txt_openid.'"');
+									$list=$query->result();
+									if(count($list)>=1)
+									{
+										$this->dismess('此openid绑定信息已经提交请勿重复操作！');
+										exit();
+									}
+
+
+									if($txt_openid=='请在微信菜单签到中打开'||$txt_openid==""){
+										$this->dismess('关闭后，请在微信菜单签到中打开');
 									}else{
 									$data = array(
 										'mems_name' => $txt_username,
@@ -117,7 +126,7 @@ function add(){
 
 									if($res){
 										$this->dismess('提交成功！');
-										$this->GoOrRefreshPage(0,'http://km0913.imwork.net/ussys/index');
+										$this->GoOrRefreshPage('0','https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx7cf2f38dcfb28d91&redirect_uri=http://km0913.imwork.net/ussys&response_type=code&scope=snsapi_base&state=1#wechat_redirect');
 									}
 
 								}
